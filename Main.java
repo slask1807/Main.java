@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         Auto auto = new Auto();
+
+        Auto auto2 = new Auto();
+
         auto.engine = new Engine();
         auto.gearbox = new Gearbox();
         auto.engine.diaPiston =120;
